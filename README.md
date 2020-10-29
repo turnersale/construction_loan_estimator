@@ -14,22 +14,20 @@ The following parameters are used in the calculations and described here:
   * The total cost of purchasing the land on which the home will be built
 * Construction Cost
   * The total cost of constructing the home not including the land
-* Loan Term
-  * The number of years in which payments will be made
-* Estimated Value upon Completion
-  * The estimated home value of the project once built (for equity)
-* Contruction Term
-  * The number of years that the construction project will take to complete
 * Down Payment
   * The initial down payment (this is subtracted from the total loan amount)
-* Inflation
-  * The rate of inflation that will be assumed flat over the loan period
+* Completed Value
+  * The home value of the completed construction project
 * Closing Costs
   * As this is a "single close" construction loan, this is only the proportion of the cost of the full loan, executed once at the beginning of term
-* Square Footage
-  * The estimated completed square footage of the home
-* Maintenance Cost
-  * The yearly maintenance cost
+* Loan Term
+  * The number of years in which payments will be made
+* Contruction Term
+  * The number of months that the construction project will take to complete
+* Years to Consider
+  * The number of years to run the analysis (can be greater than the loan and construction term combination)
+* Maintenance per Square Foot
+  * The dollars per square foot of ongoing maintenance
 * Property Tax Assessment Rate
   * The rate of taxation on the value of the home
   * This will be re-evaluated each year
@@ -37,11 +35,15 @@ The following parameters are used in the calculations and described here:
   * The multiplier on the assessment rate
 * Initial Rent Monthly Payment
   * The monthly payment for rent
+* Inflation
+  * The rate of inflation that will be assumed flat over the loan period
 * Rent Growth Rate
   * The annual rate of growth in the cost of renting
 * Home Appreciation Rate
   * The annual rate of growth of the value of the home
 * Loan Interest Rate
   * The interest rate on the long term mortgage and the construction period
+* Square Footage
+  * The estimated completed square footage of the home
 * Total Loan Amount
-  * The total amount of the loan minus the down payment
+  * The total of property cost, construction cost and the inverse of the down payment
