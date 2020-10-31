@@ -33,6 +33,9 @@ The following parameters are used in the calculations and described here:
   * This will be re-evaluated each year
 * Property Tax Mill Levy
   * The multiplier on the assessment rate
+* Initial Home Owners Association Fees
+  * The initial monthly cost for HOA
+  * This will grow at the same rate as inflation
 * Initial Rent Monthly Payment
   * The monthly payment for rent
 * Inflation
