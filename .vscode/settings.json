@@ -1,3 +1,4 @@
 {
-    "python.dataScience.jupyterServerURI": "local"
+    "jupyter.jupyterServerType": "local",
+    "python.pythonPath": "/home/turner_sale/anaconda3/bin/python3.8"
 }
